@@ -3,8 +3,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter/foundation.dart';
 import 'package:responsive_builder/responsive_builder.dart';
 
-import 'components/left_column/left_column.dart';
-import 'components/right_column/right_column.dart';
+import 'components/desktop_ui.dart';
+import 'components/mobile_ui.dart';
 
 const primaryColor = Colors.black;
 const backgroundColor = Colors.orange;
@@ -46,19 +46,10 @@ class MyHomePage extends StatelessWidget {
             builder: (context, sizingInformation) {
               return sizingInformation.deviceScreenType ==
                       DeviceScreenType.desktop
-                  ? IntrinsicHeight(
-                      child: Container(
-                        color: backgroundColor,
-                        child: Row(
-                          crossAxisAlignment: CrossAxisAlignment.start,
-                          children: [
-                            LeftColumn(sizingInformation),
-                            RightColumn(sizingInformation),
-                          ],
-                        ),
-                      ),
+                  ? DesktopUI(
+                      sizingInformation: sizingInformation,
                     )
-                  : Container(color: backgroundColor);
+                  : MobileUI(sizingInformation: sizingInformation);
             },
           ),
         ),
@@ -66,4 +57,5 @@ class MyHomePage extends StatelessWidget {
     );
   }
 }
+
 

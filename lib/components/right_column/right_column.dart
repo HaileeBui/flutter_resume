@@ -22,10 +22,16 @@ class RightColumn extends StatelessWidget {
             children: [
               Column(
                 crossAxisAlignment: CrossAxisAlignment.center,
-                children: [NameWidget(), ContactInfo()],
+                children: [NameWidget(sizingInformation), ContactInfo()],
               ),
-              ContentWidget(sizingInformation: sizingInformation, contentTitle: 'experience',),
-              ContentWidget(sizingInformation: sizingInformation, contentTitle: 'education',),
+              ContentWidget(
+                sizingInformation: sizingInformation,
+                contentTitle: 'experience',
+              ),
+              ContentWidget(
+                sizingInformation: sizingInformation,
+                contentTitle: 'education',
+              ),
             ],
           ),
         ),
@@ -33,4 +39,3 @@ class RightColumn extends StatelessWidget {
     );
   }
 }
-
