@@ -17,27 +17,27 @@ class ContactInfo extends StatelessWidget {
           FittedBox(
               fit: BoxFit.fitWidth,
               child: Text(
-                'sjsh',
+                'mistybuij@gmail.com',
                 style: GoogleFonts.montserrat(
-                    fontWeight: FontWeight.w200,
+                    fontWeight: FontWeight.w300,
                     fontSize: 30,
                     color: primaryColor),
               ),),
           FittedBox(
               fit: BoxFit.fitWidth,
               child: Text(
-                'phone : ',
+                '+358 40 171 0551',
                 style: GoogleFonts.montserrat(
-                    fontWeight: FontWeight.w200,
+                    fontWeight: FontWeight.w300,
                     fontSize: 30,
                     color: primaryColor),
               ),),
           FittedBox(
               fit: BoxFit.fitWidth,
               child: Text(
-                'email',
+                'Särkiniementie 7D54, 00210, Helsinki',
                 style: GoogleFonts.montserrat(
-                    fontWeight: FontWeight.w200,
+                    fontWeight: FontWeight.w300,
                     fontSize: 30,
                     color: primaryColor),
               ))

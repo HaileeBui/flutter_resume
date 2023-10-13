@@ -7,7 +7,7 @@ class NameWidget extends StatelessWidget {
 
   final SizingInformation sizingInformation;
 
-  NameWidget(this.sizingInformation, {super.key});
+  const NameWidget(this.sizingInformation, {super.key});
   
   @override
   Widget build(BuildContext context) {
@@ -19,7 +19,7 @@ class NameWidget extends StatelessWidget {
           child: Padding(
             padding: const EdgeInsets.symmetric(vertical: 8),
             child: Text(
-              'NGOC BUI',
+              'MISTY BUI',
               style: GoogleFonts.montserrat(
                   fontWeight: FontWeight.bold,
                   fontSize: sizingInformation.deviceScreenType == DeviceScreenType.desktop ? 50 : 30,

@@ -22,15 +22,18 @@ class DetailSkill extends StatelessWidget {
     return Padding(
       padding: const EdgeInsets.symmetric(vertical: 16),
       child: Row(children: [
-        Text(
-          skillName,
-          style: GoogleFonts.montserrat(
-              fontSize: 20,
-              color:
-                  sizingInformation.deviceScreenType == DeviceScreenType.desktop
-                      ? Colors.white
-                      : primaryColor,
-              fontWeight: FontWeight.w100),
+        Container(
+          width: 150,
+          child: Text(
+            skillName,
+            style: GoogleFonts.montserrat(
+                fontSize: 20,
+                color:
+                    sizingInformation.deviceScreenType == DeviceScreenType.desktop
+                        ? Colors.white
+                        : primaryColor,
+                fontWeight: FontWeight.w100),
+          ),
         ),
         const SizedBox(
           width: 50,

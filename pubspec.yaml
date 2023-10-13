@@ -39,6 +39,8 @@ dependencies:
   device_preview: any
   google_fonts: any
   percent_indicator: any
+  font_awesome_flutter: any
+  url_launcher: ^6.1.14
 
 dev_dependencies:
   flutter_test:

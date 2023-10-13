@@ -37,19 +37,21 @@ class AboutMe extends StatelessWidget {
               )
             ]),
           ),
-          Text(
-            'Something ',
-            textAlign:
-                sizingInformation.deviceScreenType == DeviceScreenType.mobile
-                    ? TextAlign.justify
-                    : TextAlign.left,
-            style: GoogleFonts.montserrat(
-                fontSize: 20,
-                color: sizingInformation.deviceScreenType ==
-                        DeviceScreenType.desktop
-                    ? Colors.white
-                    : primaryColor,
-                fontWeight: FontWeight.w100),
+          Center(
+            child: Text(
+              'Mobile Developer | Software Developer \nCan-do attitude and goal-oriented. Dedicated to build applications with immense passion.',
+              textAlign:
+                  sizingInformation.deviceScreenType == DeviceScreenType.mobile
+                      ? TextAlign.justify
+                      : TextAlign.left,
+              style: GoogleFonts.montserrat(
+                  fontSize: 20,
+                  color: sizingInformation.deviceScreenType ==
+                          DeviceScreenType.desktop
+                      ? Colors.white
+                      : primaryColor,
+                  fontWeight: FontWeight.w100),
+            ),
           )
         ],
       ),

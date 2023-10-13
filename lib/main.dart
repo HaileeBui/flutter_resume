@@ -7,7 +7,7 @@ import 'components/desktop_ui.dart';
 import 'components/mobile_ui.dart';
 
 const primaryColor = Colors.black;
-const backgroundColor = Colors.orange;
+const backgroundColor = Color(0xFFEDF1F4);
 
 void main() {
   runApp(DevicePreview(

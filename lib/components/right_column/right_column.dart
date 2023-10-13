@@ -1,14 +1,16 @@
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
 import 'package:responsive_builder/responsive_builder.dart';
 import 'package:resume/components/right_column/contact.dart';
-import 'package:resume/components/right_column/content_widget.dart';
+import 'package:resume/components/right_column/experiences.dart';
 import 'package:resume/components/right_column/name_widget.dart';
+import 'package:resume/components/right_column/projects.dart';
+
+import 'educations.dart';
 
 class RightColumn extends StatelessWidget {
   final SizingInformation sizingInformation;
 
-  RightColumn(this.sizingInformation, {super.key});
+  const RightColumn(this.sizingInformation, {super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -22,16 +24,11 @@ class RightColumn extends StatelessWidget {
             children: [
               Column(
                 crossAxisAlignment: CrossAxisAlignment.center,
-                children: [NameWidget(sizingInformation), ContactInfo()],
+                children: [NameWidget(sizingInformation), const ContactInfo()],
               ),
-              ContentWidget(
-                sizingInformation: sizingInformation,
-                contentTitle: 'experience',
-              ),
-              ContentWidget(
-                sizingInformation: sizingInformation,
-                contentTitle: 'education',
-              ),
+              Experiences(sizingInformation: sizingInformation),
+              Educations(sizingInformation: sizingInformation),
+              Projects(sizingInformation: sizingInformation),
             ],
           ),
         ),

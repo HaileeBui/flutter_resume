@@ -40,24 +40,48 @@ class Skills extends StatelessWidget {
           ),
           DetailSkill(
               sizingInformation: sizingInformation,
-              skillName: 'TypeScript',
-              skillValue: 0.5),
+              skillName: 'React Native',
+              skillValue: 0.9),
           DetailSkill(
               sizingInformation: sizingInformation,
               skillName: 'TypeScript',
+              skillValue: 0.9),
+          DetailSkill(
+              sizingInformation: sizingInformation,
+              skillName: 'JavaScript',
+              skillValue: 0.9),
+          DetailSkill(
+              sizingInformation: sizingInformation,
+              skillName: 'React',
+              skillValue: 0.9),
+          DetailSkill(
+              sizingInformation: sizingInformation,
+              skillName: 'Flutter-Dart',
+              skillValue: 0.7),
+          DetailSkill(
+              sizingInformation: sizingInformation,
+              skillName: 'Kotlin',
+              skillValue: 0.6),
+          DetailSkill(
+              sizingInformation: sizingInformation,
+              skillName: 'Python',
+              skillValue: 0.6),
+          DetailSkill(
+              sizingInformation: sizingInformation,
+              skillName: 'Kotlin',
+              skillValue: 0.6),
+           DetailSkill(
+              sizingInformation: sizingInformation,
+              skillName: 'Nodejs',
+              skillValue: 0.7),
+           DetailSkill(
+              sizingInformation: sizingInformation,
+              skillName: 'AWS',
               skillValue: 0.5),
           DetailSkill(
               sizingInformation: sizingInformation,
-              skillName: 'TypeScript',
-              skillValue: 0.5),
-          DetailSkill(
-              sizingInformation: sizingInformation,
-              skillName: 'TypeScript',
-              skillValue: 0.5),
-          DetailSkill(
-              sizingInformation: sizingInformation,
-              skillName: 'TypeScript',
-              skillValue: 0.5),
+              skillName: 'PostgreSQL',
+              skillValue: 0.6),
         ],
       ),
     );
