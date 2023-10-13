@@ -4,7 +4,6 @@ import 'package:resume/components/heigh20.dart';
 import 'package:resume/components/left_column/avatar.dart';
 import 'package:resume/components/left_column/languages.dart';
 import 'package:resume/components/left_column/skills.dart';
-import 'package:resume/components/left_column/socials.dart';
 import 'package:resume/components/right_column/contact.dart';
 import 'package:resume/components/right_column/educations.dart';
 import 'package:resume/components/right_column/experiences.dart';

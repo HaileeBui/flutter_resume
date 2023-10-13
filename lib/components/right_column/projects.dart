@@ -41,6 +41,11 @@ class Projects extends StatelessWidget {
             link: 'https://github.com/MistyBui/timer/tree/dev'),
         ProjectContent(
             sizingInformation: sizingInformation,
+            title: "CoronaNews (school project)",
+            description: 'Swift - Firebase',
+            link: 'https://github.com/MistyBui/CoronaNews'),
+        ProjectContent(
+            sizingInformation: sizingInformation,
             title: "movie-api (personal project)",
             description: 'Python - Django - PostgreSQL',
             link: 'https://github.com/MistyBui/movie-api'),
