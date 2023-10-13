@@ -64,6 +64,10 @@ class Skills extends StatelessWidget {
               skillValue: 0.6),
           DetailSkill(
               sizingInformation: sizingInformation,
+              skillName: 'Swift',
+              skillValue: 0.5),
+          DetailSkill(
+              sizingInformation: sizingInformation,
               skillName: 'Python',
               skillValue: 0.6),
           DetailSkill(
