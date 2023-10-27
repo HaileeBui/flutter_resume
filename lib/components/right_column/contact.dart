@@ -17,7 +17,7 @@ class ContactInfo extends StatelessWidget {
           FittedBox(
               fit: BoxFit.fitWidth,
               child: Text(
-                'mistybuij@gmail.com',
+                'haileebuij@gmail.com',
                 style: GoogleFonts.montserrat(
                     fontWeight: FontWeight.w300,
                     fontSize: 30,

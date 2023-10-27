@@ -48,7 +48,7 @@ class Socials extends StatelessWidget {
                   icon: const Icon(FontAwesomeIcons.github),
                   onPressed: () {
                     Utils.launchURL(
-                        "https://github.com/MistyBui?tab=repositories");
+                        "https://github.com/HaileeBui");
                   },
                 ),
                 const SizedBox(width: 20.0),
@@ -57,7 +57,7 @@ class Socials extends StatelessWidget {
                   iconSize: 40,
                   icon: const Icon(FontAwesomeIcons.linkedin),
                   onPressed: () {
-                    Utils.launchURL("https://www.linkedin.com/in/mistybui/");
+                    Utils.launchURL("https://www.linkedin.com/in/haileebui/");
                   },
                 ),
               ],
